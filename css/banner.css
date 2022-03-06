@@ -1,0 +1,39 @@
+html,
+body {
+  margin: 0;
+}
+
+.banner {
+  background: #000000;
+  padding: 30px;
+  size: 2px;
+}
+
+.banner-content {
+  padding: 10px;
+  max-width: 150px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.banner-content2 {
+  padding: 10px;
+  max-width: 250px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+
+.banner-text {
+  flex-grow: 1;
+  line-height: 1.4;
+  font-family: "Quicksand", sans-serif;
+}
+
+
+.banner-text,
+.banner-close > span {
+  color: #ffffff;
+}
